@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    gap: 1.5rem;
+    padding: 20px;
+}
+
+.container-card .avatar {
+    width: 100%;
+    text-align: center;
+}
+
+.container-card .avatar img {
+    border-radius: 50%;
+    height: 95px;
+}
+
+.container-card .description {
+    text-align: center;
+}
+
+.container-card .description p {
+    color: hsl(75, 94%, 57%);
+    margin-top: 5px;
+}
+
+.container-card .button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container-card .button button {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container-card .button button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
