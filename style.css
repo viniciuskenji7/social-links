@@ -24,6 +24,7 @@ body {
     color: hsl(0, 0%, 100%);
     gap: 1.5rem;
     padding: 20px;
+    box-shadow: 4px 4px 4px rgba(255, 255, 255, 0.219);
 }
 
 .container-card .avatar {
